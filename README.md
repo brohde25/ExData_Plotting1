@@ -1,3 +1,24 @@
+Following the instructions from the Exploratory Data Analysis Project 1 (which can be found below)
+Four plots were created based on the dataset; Electric power consumption from the UC Irvine Machine Learning Repository (links are listed below in the instructions)
+
+The data specifications consisted of 9 columns and 2,075,259 rows from which a subset of data was used corresponding to the dates of 2007-02-01 to 2007-02-02.  The column titles in order were Date, Time, Global_active_power, Global_reactive_power, Voltage, Global_intensity, Sub_metering_1, Sub_metering_2, and Sub_metering_3 (the descriptions are listed below in the instructions)
+
+The four script files and associated png files are described below:
+
+Each plot R script file reads the file from the UC Irvine Machine Learning Repository and unzips the file.  The data is read into a table, the Date and Time fields are converted to appropriate formats to assist in the creation of the subset data associated with the above dates 2007-02-01 to 2007-02-02.
+
+Using the base plot system four plots were created to examine the household energy usage over the defined two day period in February, 2007.
+plot1.png plots the Global Active Power Frequency over Global Active Power kilowatts in a histogram.
+
+plot2.png plots Global Acive Power kilowatts over the period.
+
+plot3.png plots Energy sub metering over the period.
+
+plot4.png plots four graphs; top left plots Global Active Power over period, top right plots Voltage over period, bottom left plots Energy sub metering over period and bottom right plots Global reactive power over period.  
+
+All plots had to mimic the parameters of the graph images provided in the instructions below. 
+
+
 ## Introduction
 
 This assignment uses data from
